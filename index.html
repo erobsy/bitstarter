@@ -2,14 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>My First Bitstarter</title>
+<title>Favoralia - the free favour exchange network</title>
 <meta name="viewport" content="width=device-width, initial-scale-1.0">
 <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
 <link type="text/css" rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css">
 <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fsocial-buttons.css">
 <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fjquery.js"></script>
 <script src="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
-<link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800" rel="stylesheet" type="text/css">
 <style type="text/css">
 /* large desktop */
@@ -25,9 +24,12 @@ body {padding-top:60px;}
 .linediv-r {border-left:1px white solid;}
 }
 /* all form factors */
-body{font-family: 'Open Sans', Helvetica, Arial, sans-serif;}
-.heading, .subheading {font-family: 'Ubuntu',Helvetica, Arial, sans-serif;text-align:center;}
-p.lead {padding-top:1.5%;font-size:24px;line-height:30px;}
+.faq {border:0px;}
+h1{font-family:Georgia;font-weight:bold;font-style:italic;font-size:48px;color:#007aa2;}
+body{font-family: 'Open Sans', Helvetica, Arial, sans-serif;background-color: #00c4e1;background-image:url("http://www.favoralia.com/css/extbackground.png");background-repeat: repeat-x;
+}
+.heading, .subheading {font-family: 'Open Sans',Helvetica, Arial, sans-serif;text-align:center;}
+p.lead {padding-top:1.5%;font-size:24px;line-height:30px;font-weight:400}
 p {font-size:18px;line-height:24px;}
 /* video pitch and action */
 .pitch {padding:2.5% 0%;}
@@ -38,9 +40,10 @@ p {font-size:18px;line-height:24px;}
 /* marketing copy and footer */
 .copy {padding-top:2.5%;padding-bottom:2.5%;text-align:justify;}
 .asset {padding:2.5% 0%;}
-.footer {color:#cccccc;text-align:center;}
+.footer {color:#000040;text-align:center;}
 .footer p {font-size:11px;}
-.footer a {color:#ccccff;}
+.footer a {color:#000080;}
+.content-wrapper {background-color:white;border-radius:6px;}
 </style>
 </head>
 <body>
@@ -68,17 +71,17 @@ p {font-size:18px;line-height:24px;}
 <div class="container">
     <div class="row-fluid heading">
         <div class="span12">
-            <h1>Product</h1>
+            <h1>Favoralia</h1>
         </div>
     </div>
     <div class="row-fluid subheading">
         <div class="span12">
-            <p class="lead">One sentence description.</p>
+            <p class="lead"><b>Get help. Give help. Easily.</b></p>
         </div>
     </div>
     <div class="row-fluid pitch">
         <div class="span5 offset1 video">
-            <img class="img-polaroid" src="http://placehold.it/480x300">
+            <img class="img-polaroid" src="http://www.innoars.com/tmp/img/help.jpg">
         </div>
 
     <div class="span5 actions">
@@ -86,29 +89,28 @@ p {font-size:18px;line-height:24px;}
             <div class="statistics">
                 <div class="span4">
                     <div class="linediv-l">
-                        <h3>1000</h3> <p>backers</p>
+                        <h3>0</h3> <p>backers</p>
                     </div>
                 </div>
                 <div class="span4">
                     <div class="linediv-c">
-                        <h3>$6000</h3> <p>of $10,000</p>
+                        <h3>$0</h3> <p>of $15,000</p>
                     </div>
                 </div>
                 <div class="span4">
                     <div class="linediv-r">
-                        <h3>10</h3> <p>days left</p>
+                        <h3>30</h3> <p>days left</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="span10 offset1">
-            <div class="thermometer progress active">
-                <div class="bar bar-success" style="width:60%"></div>
-                <div class="bar bar-warning" style="width:40%"></div>
+            <div class="thermometer progress progress-info active">
+                <div class="bar" style="width:5%"></div>
             </div>
         </div>
         <div class="span6 offset3 order">
-            <button class="btn btn-success btn-large">Preorder</button>
+            <button class="btn btn-success btn-large">Contribute</button>
         </div>
         <div class="span8 offset2 social">
             <button class="btn btn-twitter"><i class="icon-twitter"></i> | Twitter</button>
@@ -119,54 +121,68 @@ p {font-size:18px;line-height:24px;}
 <!-- marketing -->
 <div class="row-fluid section1">
     <div class="span5 offset1 asset">
-        <img class="img-polaroid" src="http://placehold.it/480x300">
+        <img class="img-polaroid" src="http://www.innoars.com/tmp/img/screenshot.jpg">
     </div>
     <div class="span5 copy">
         <p>
-            Lorem ipsum dolor sit amet, consectetus adipiscing elit. Donec porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu mollis justo velit at nunc. Fusce nec egestas sem. Donec fringilla ante lectus, a pellentesque lacus dignissim ac. Sed volutpat lorem ut congue malesuada. In facilisis scelerisque turpis sed lacinia. Donec ir orci lectus. Donec auctor semper quam, eget rhuncus purus fringilla id. Phasellus id nibh eu risus ultrices adipiscing. Lorem ipsum dolor sit amet, consectetus adipiscing elit. Donec porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu molis justo velit at nunc. Fusce nec egestas sem. Donec fringilla.
+            Would you like to get some help from time to time? Do you enjoy helping people? Do you want to get help for free and also help other people sharing your talents and habilities? If so, you are really lucky, because that is the exact philosophy of <b>Favoralia</b>, the social network for exchanging free favours.<br>Sounds interesting? Of course it does! And it is even better because it already exists and it has been kicking for more than one year now: more than 6,000 people from almost 50 countries are actively using this platform. At the moment, more than 4,000 favours are being offered in <b><a href='http://www.favoralia.com'>Favoralia</a></b>.
         </p>
     </div>
 </div>
 <div class="row-fluid section2">
     <div class="span5 offset1 copy copy-right">
         <p>
-            Lorem ipsum dolor sit amet, consectetus adipiscing elit. Donec porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu mollis justo velit at nunc. Fusce nec egestas sem. Donec fringilla ante lectus, a pellentesque lacus dignissim ac. Sed volutpat lorem ut congue malesuada. In facilisis scelerisque turpis sed lacinia. Donec ir orci lectus. Donec auctor semper quam, eget rhuncus purus fringilla id. Phasellus id nibh eu risus ultrices adipiscing. Lorem ipsum dolor sit amet, consectetus adipiscing elit. Donec porta, dui sagittis hendrerit rutrum, nunc leo tempus nisl, eu molis justo velit at nunc. Fusce nec egestas sem. Donec fringilla.
+            So, if it is already up and running, why should you contribute? Because <b>Favoralia</b> was designed just to be used in our home country, Spain, and thus was fully written in Spanish. Several months later, we launched it in Latin America. But now we want to make it global: we need to translate the whole site to English, launch the international version, introduce a responsive framework, improve the design and usability and upgrade the server to cope with higher traffic and functionality. Do you want to help us? If so, contribute with any amount of money in any currency available. Our goal is helping people and improving a bit our little planet: would you join us?
         </p>
     </div>
     <div class="span5 asset">
-        <img class="img-polaroid" src="http://placehold.it/480x300">
+        <img class="img-polaroid" src="http://www.innoars.com/tmp/img/partners.jpg">
     </div>
 </div>
 
 <!-- faq -->
-<div class="row-fluid faq">
+<div class="row-fluid">
     <div class="span10 offset1">
         <h3>FAQ</h3>
-        <div class="accordion" id="accordion2">
-            <div class="accordion-group">
-                <div class="accordion-heading">
+        <div class="content-wrapper">
+        <div class="accordion faq" id="accordion2">
+            <div class="accordion-group faq">
+                <div class="accordion-heading faq">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-                        What does FAQ stand for?
+                        What means "free" in "free favour"?
                     </a>
                 </div>
                 <div id="collapseOne" class="accordion-body collapse">
-                    <div class="accordion-inner">
-                        Frequently Asked Question.
+                    <div class="accordion-inner faq">
+                        Means free as in "free beer": no money involved. Favoralia is a free platform: you do not have to pay anything to get/give from/to others. That is why we need some funding right now!
                     </div>
                 </div>
             </div>
-            <div class="accordion-group">
-                <div class="accordion-heading">
+            <div class="accordion-group faq">
+                <div class="accordion-heading faq">
                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseTwo">
-                        What's a Frequently Asked Question?
+                        Is Favoralia a time bank?
                     </a>
                 </div>
                 <div id="collapseTwo" class="accordion-body collapse">
-                    <div class="accordion-inner">
-                        A question which is commonly asked by users.
+                    <div class="accordion-inner faq">
+                        In a way, it is very similar to a time bank, but you do not trade time for time as it is. You offer a favour an set up a number of points, and you will get them from other users as you do it. We prefer this system because it provides a more efficient "favour market".
                     </div>
                 </div>
             </div>
+            <div class="accordion-group faq">
+                <div class="accordion-heading faq">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseThree">
+                        So, in a nutshell, what is Favoralia?
+                    </a>
+                </div>
+                <div id="collapseThree" class="accordion-body collapse">
+                    <div class="accordion-inner faq">
+                        Well, the best definition we can think of is Fiverr without money. Nothing more. Nothing less. Do it for the sake of good karma and get some points to have new favours done to you.
+                    </div>
+                </div>
+            </div>
+        </div>
         </div>
     </div>
 </div>
